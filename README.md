@@ -3,8 +3,8 @@
 The project is aimed at automating the analysis of 2D cell cultures by processing microimages.
 
 The system provides a full cycle of processing brightfield and fluorescent data, which includes:
-* **Classification** automatic determination of morphological cell types.
-* **Clustering** automatically binds vesicles to nuclei.
+* **Classification:** automatic determination of morphological cell types.
+* **Clustering:** automatically binds vesicles to nuclei.
 * **Segmentation:** isolation of intracellular structures (nuclei, vesicles)
 * **Metric analysis:** calculation of quantitative characteristics (area and linear dimensions).
 
