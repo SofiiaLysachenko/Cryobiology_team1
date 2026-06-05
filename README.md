@@ -1,16 +1,15 @@
 # Cryobiology_team1
 
-Проєкт спрямований на автоматизацію аналізу 2D культур клітин шляхом обробки мікрозображень.
+The project is aimed at automating the analysis of 2D cell cultures by processing microimages.
 
-Система забезпечує повний цикл обробки світлопольних та флуоресцентних даних, що охоплює:
-* **Класифікація:** автоматичне визначення морфологічних типів клітин.
-* **Кластеризація** автоматично прив'язує везикули до ядер.
-* **Сегментація:** виділення внутрішньоклітинних структур (ядер, везикул).
-* **Метричний аналіз:** розрахунок кількісних характеристик (площі та лінійних розмірів).
+The system provides a full cycle of processing brightfield and fluorescent data, which includes:
+* **Classification** automatic determination of morphological cell types.
+* **Clustering** automatically binds vesicles to nuclei.
+* **Segmentation:** isolation of intracellular structures (nuclei, vesicles)
+* **Metric analysis:** calculation of quantitative characteristics (area and linear dimensions).
 
-### Cell shape - класифікація форм клітин
-Цей скрипт призначений для аналізу сегментаційних масок клітин (у форматі .npy). Він розраховує морфологічні метрики кожної клітини та класифікує їх за формою, після чого візуалізує результат, накладаючи кольорові контури на оригінальне зображення.
+### Cell shape - classification of cell shapes
+This script is designed to analyze cell segmentation masks (in .npy format). It calculates the morphological metrics of each cell and classifies them by shape, then visualizes the result by superimposing colored contours on the original image.
 
-### Clustering - xвильовий алгоритм кластеризації везикул
-Цей скрипт реалізує алгоритм хвильового фронту для прив'язки везикул до клітинних ядер на основі просторової близькості та готових сегментаційних масок.
-
+### Clustering - Clustering - wavefront vesicle clustering algorithm
+This script implements a wavefront algorithm for binding vesicles to cell nuclei based on spatial proximity and pre-computed segmentation masks.
